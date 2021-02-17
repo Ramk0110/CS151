@@ -2,12 +2,18 @@ package hw1;
 
 public class Stock 
 {
-	 String stock;
+	 private String stock;
 	
 	public Stock(String f)
 	{
 		 this.stock=f;
     }
+
+	public String getStock() 
+	{
+		return stock;
+	}
+	
 
 	
 	
